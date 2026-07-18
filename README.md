@@ -10,14 +10,14 @@ The goal was to practice the core skills of AI training and evaluation work: app
 |---|---|
 | `RUBRIC.md` | The 5-point scoring rubric with anchors and examples for each score |
 | `GUIDELINES.md` | Annotation guidelines: scope, edge-case rules, and what to do when unsure |
-| `data/items.csv` | 20 question–answer pairs to be rated |
-| `ratings/ratings.csv` | My score, justification, and error flags for each item |
-| `notes/hard-cases.md` | Items where the rubric was hard to apply, and how I resolved them |
-| `notes/consistency-check.md` | A re-rating of a sample one week later, with agreement results |
+| `items.csv` | 20 question–answer pairs to be rated |
+| `ratings.csv` | My score, justification, and error flags for each item |
+| `hard-cases.md` | Items where the rubric was hard to apply, and how I resolved them |
+| `consistency-check.md` | A re-rating of a sample one week later, with agreement results |
 
 ## How the dataset was built
 
-The answers in `data/items.csv` were generated and curated specifically for this exercise. Some are fully correct, and others contain seeded problems: factual errors, outdated information, fabricated specifics, partial answers, and confident non-answers. Building the set this way means each item has a known ground truth to check my ratings against, and it avoids using any material from client platforms, which contributor agreements prohibit sharing.
+The answers in `items.csv` were generated and curated specifically for this exercise. Some are fully correct, and others contain seeded problems: factual errors, outdated information, fabricated specifics, partial answers, and confident non-answers. Building the set this way means each item has a known ground truth to check my ratings against, and it avoids using any material from client platforms, which contributor agreements prohibit sharing.
 
 ## What I learned
 
@@ -27,4 +27,4 @@ The answers in `data/items.csv` were generated and curated specifically for this
 
 ## Method notes
 
-Each item was rated in a single pass, justification first, score second. One week later I re-rated a random sample of items without looking at my original scores and recorded the agreement rate in `notes/consistency-check.md`.
+Each item was rated in a single pass, justification first, score second. One week later I re-rated a random sample of items without looking at my original scores and recorded the agreement rate in `consistency-check.md`.
