@@ -1,6 +1,6 @@
 # AI Response Rating: A Rubric-Based Evaluation Exercise
 
-A self-directed annotation project. I designed a 5-point rubric for rating the factual accuracy of AI-generated answers, wrote annotation guidelines with edge-case rules, and applied the rubric to a set of 20 question–answer pairs, recording a score and a written justification for each.
+A self-directed annotation project. I used Claude to design a 5-point rubric for rating the factual accuracy of AI-generated answers, wrote annotation guidelines with edge-case rules, and applied the rubric to a set of 20 question–answer pairs, recording a score and a written justification for each.
 
 The goal was to practice the core skills of AI training and evaluation work: applying a fixed rubric consistently, separating factual accuracy from writing quality, catching hallucinations, and justifying every judgment in one or two sentences.
 
