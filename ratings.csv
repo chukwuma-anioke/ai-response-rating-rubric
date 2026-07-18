@@ -1,0 +1,21 @@
+item_id,score,flags,justification
+01,,,
+02,5,,"Both claims are correct: 100°C at sea-level pressure, and lower boiling points at altitude. Nothing stated is false."
+03,2,factual-error,"The central claim is wrong. Insulin is produced by the pancreas (beta cells), not the liver. The regulation detail is broadly right but cannot rescue a wrong core answer."
+04,3,"factual-error,overclaim","The length figure is defensible for the full wall system, but naked-eye visibility from space is a well-documented myth stated here as settled fact. Correct and incorrect claims are both prominent."
+05,5,,"Author, nationality, and 1958 publication year are all correct. The prominence claim is fair comment, not a factual error."
+06,4,factual-error,"The direct answer (46 chromosomes, 23 pairs) is correct. The supporting detail is false: chromosome 1 is the largest, not the smallest. Peripheral error, so 4 under rule 4."
+07,2,factual-error,"Classic misconception stated as the answer. Seasons are caused by axial tilt, not distance; Earth is actually closest to the sun during Northern Hemisphere winter. Core claim wrong."
+14,1,"fabrication,factual-error","Cites a specific study, institution, journal, and statistic that do not exist, and no credible evidence links coffee to stunted growth. Fabricated specifics cap the score at 1–2; invented citation plus false claim earns a 1."
+15,1,non-answer,"Every sentence is vaguely true and none answers the question. The year (1960) never appears. Non-answer under rule 7."
+08,,,
+09,,,
+10,,,
+11,,,
+12,,,
+13,,,
+16,,,
+17,,,
+18,,,
+19,,,
+20,,,
